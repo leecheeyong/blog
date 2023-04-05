@@ -11,9 +11,19 @@ Source code of my personal blog made using [vuejs](https://vuejs.org) and other 
 - [vue](https://vuejs.org)
 - [tailwindcss](https://tailwindcss.com/)
 
+## About
+- Performant
+- Multi platform friendly (mobile, desktop, tablets)
+- Dark/Light mode toggle
+- Made using Vue, styled using Tailwind CSS
+- Icons provided by Heroicons
+- Contents were written in markdown format
+- Lightweight
+
+
 ## Showcase
 <details>
-<summary><h4>Dark Mode</h4></summary>
+<summary><b>Dark Mode</b></summary>
 <br>
 <img src="/images/dark-desktop-home.png" width="800">
 <img src="/images/dark-desktop-post.png" width="800">
@@ -21,7 +31,7 @@ Source code of my personal blog made using [vuejs](https://vuejs.org) and other 
 </details>
 
 <details>
-<summary><h4>Light Mode</h4></summary>
+<summary><b>Light Mode</b></summary>
 <br>
 <img src="/images/light-desktop-home.png" width="800">
 <img src="/images/light-mobile-home.png" width="400">
