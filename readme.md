@@ -10,3 +10,10 @@ Source code of my personal blog made using [vuejs](https://vuejs.org) and other 
 - [postcss](https://www.npmjs.com/package/postcss)
 - [vue](https://vuejs.org)
 - [tailwindcss](https://tailwindcss.com/)
+
+## Showcase
+<details open>
+<summary><h2>Dark Mode</h2></summary>
+<br>
+<img src="/images/dark-desktop-home.png">
+</details>
