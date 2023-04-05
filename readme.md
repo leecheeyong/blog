@@ -12,13 +12,15 @@ Source code of my personal blog made using [vuejs](https://vuejs.org) and other 
 - [tailwindcss](https://tailwindcss.com/)
 
 ## Showcase
-<details open>
+<details>
 <summary><h2>Dark Mode</h2></summary>
 <br>
 <img src="/images/dark-desktop-home.png" width="800">
 <img src="/images/dark-desktop-post.png" width="800">
 <img src="/images/dark-mobile-post.png" width="400">
 </details>
+
+<details>
 <summary><h2>Light Mode</h2></summary>
 <br>
 <img src="/images/light-desktop-home.png" width="800">
