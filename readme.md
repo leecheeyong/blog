@@ -26,3 +26,6 @@ Source code of my personal blog made using [vuejs](https://vuejs.org) and other 
 <img src="/images/light-desktop-home.png" width="800">
 <img src="/images/light-mobile-home.png" width="400">
 </details>
+
+## License
+This project is available as an open source under the terms of [MIT License](./LICENSE)
