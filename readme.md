@@ -21,5 +21,5 @@ Source code of my personal blog made using [vuejs](https://vuejs.org) and other 
 <summary><h2>Light Mode</h2></summary>
 <br>
 <img src="/images/light-desktop-home.png" width="800">
-<img src="/images/light-desktop-post.png" width="800">
+<img src="/images/light-mobile-post.png" width="400">
 </details>
