@@ -51,6 +51,14 @@ const date: number = new Date().getFullYear()
             <li>
               <a
                 class="text-sm block py-1 px-3"
+                href="mailto:tojoeleeofficial@gmail.com"
+                target="_blank"
+                >Contact</a
+              >
+            </li>
+            <li>
+              <a
+                class="text-sm block py-1 px-3"
                 href="https://github.com/leecheeyong/blog/blob/main/LICENSE"
                 target="_blank"
                 >MIT License</a
