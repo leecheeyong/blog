@@ -25,18 +25,19 @@ jobs:
       run: |
         npm install
         npm run build
-    - name: Commit files
-      run: |
-        git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
-        git config --local user.name "github-actions[bot]"
-        git commit -m "Build Complete" -a || true
-    
+
     - name: Create files
       uses: EndBug/add-and-commit@v9
       with:
        message: Done Update
        committer_name: GitHub Actions
        committer_email: 41898282+github-actions[bot]@users.noreply.github.com
+    - name: Commit files
+      run: |
+        git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "github-actions[bot]"
+        git commit -m "Build Complete" -a || true
+    
     - name: Push changes
       uses: ad-m/github-push-action@master
       with:
