@@ -54,7 +54,7 @@ const navigation: Navigation[] = [
           <div class="flex flex-shrink-0 items-center">
             <img
               class="h-8 w-auto"
-              src="https://www.joelee.works/assets/joelee.jpg"
+              src="https://joe.js.org/assets/joelee.jpg"
               style="border-radius: 100%; width: 100%"
               alt="Joe Lee's Avatar"
             />
