@@ -34,7 +34,7 @@ export default async (
   const markdown = computed(() =>
     DOMPurify.default.sanitize(marked(data.content ? data.content : ''))
   )
-  document.title = `Joe - ${data.title}`
+  document.title = `Joe - ${data.title || "Not Found"}`
   return {
     ...data,
     markdown,
