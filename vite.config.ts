@@ -11,6 +11,7 @@ export default defineConfig({
       '@': fileURLToPath(new URL('./src', import.meta.url))
     }
   },
-  root: './blog',
-  publicDir: './blog/assets'
+  build: {
+    assetsDir: "./blog/assets"
+  }
 })
