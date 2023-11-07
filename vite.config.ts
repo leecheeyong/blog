@@ -12,6 +12,11 @@ export default defineConfig({
     }
   },
   build: {
-    assetsDir: "./blog/assets"
-  }
+    rollupOptions: {
+      output: {
+        assetFileNames: (assetInfo) => {
+          return `/blog/${assetInfo.name}`
+        }
+      }
+    }
 })
