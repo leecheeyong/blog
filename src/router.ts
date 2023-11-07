@@ -8,5 +8,10 @@ export const routes = [
     path: '/:id',
     name: 'Blog',
     component: () => import('@/views/Blog.vue')
+  },
+  { 
+    path: '/:pathMatch(.*)*',
+    name: 'NotFound', 
+    component: () => import('@/views/Blog.vue') 
   }
 ]
