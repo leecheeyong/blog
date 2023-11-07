@@ -9,7 +9,6 @@ const router = createRouter({
   routes
 })
 
-if(window.location.hostname != "cheeyong.vercel.app") window.location.href = "https://cheeyong.vercel.app/"+window.location.pathname.slice(6);
 
 const app = createApp(App)
 app.use(router)
